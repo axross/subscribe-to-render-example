@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Timeline> it matches with what it renders 1`] = `<div />`;
+
+exports[`<Timeline> it subscribes collection "posts" of firestore and set own state 1`] = `
+<div>
+  <TimelineItem
+    key="post1"
+    post={Symbol(post1)}
+  />
+  <TimelineItem
+    key="post2"
+    post={Symbol(post2)}
+  />
+  <TimelineItem
+    key="post3"
+    post={Symbol(post3)}
+  />
+</div>
+`;
